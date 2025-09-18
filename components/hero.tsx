@@ -79,7 +79,7 @@ export function Hero() {
               你好，我是
               <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
                 {" "}
-                hailong
+                daichongte
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
@@ -113,7 +113,7 @@ export function Hero() {
             className="flex justify-center space-x-6"
           >
             <a
-              href="https://github.com/lwjcjmx23"
+              href="https://github.com/formerkiller1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -121,13 +121,13 @@ export function Hero() {
               <Github className="h-6 w-6" />
               <span className="sr-only">GitHub</span>
             </a>
-            <a
+            {/* <a
               href="lwjcjmx123@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <Mail className="h-6 w-6" />
               <span className="sr-only">Email</span>
-            </a>
+            </a> */}
           </motion.div>
 
           <motion.div

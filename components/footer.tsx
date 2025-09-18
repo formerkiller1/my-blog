@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Github, Twitter, Mail, Heart } from 'lucide-react'
+import { Github, UserRoundSearch, Heart} from 'lucide-react'
 
 export function Footer() {
   return (
@@ -63,7 +63,7 @@ export function Footer() {
             <h4 className="text-sm font-semibold">联系方式</h4>
             <div className="flex space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/formerkiller1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -71,29 +71,29 @@ export function Footer() {
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>
-              <a
+              {/* <a
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
-                <Twitter className="h-5 w-5" />
+                <UserRoundSearch className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="mailto:contact@example.com"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t flex flex-col sm:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 个人博客. 保留所有权利.
+            © 2025 个人博客. 保留所有权利.
           </p>
           <p className="text-sm text-muted-foreground flex items-center mt-2 sm:mt-0">
             Made with <Heart className="h-4 w-4 mx-1 text-red-500" /> using Next.js

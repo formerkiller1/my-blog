@@ -9,13 +9,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "hailong 的个人网站 - 全栈开发者",
-    template: "%s | hailong 的个人网站",
+    default: "daichongte 的个人网站 - 全栈开发者",
+    template: "%s | daichongte 的个人网站",
   },
   metadataBase: new URL("https://yourdomain.com"), // 替换为你的实际域名
 
   description:
-    "hailong 的个人展示网站，基于Next.js构建，包含博客系统、项目展示和在线简历",
+    "daichongte 的个人展示网站，基于Next.js构建，包含博客系统、项目展示和在线简历",
   keywords: [
     "Next.js",
     "React",
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     "GraphQL",
     "Blog",
     "Portfolio",
-    "hailong",
+    "daichongte",
   ],
-  authors: [{ name: "hailong" }],
-  creator: "hailong",
+  authors: [{ name: "daichongte" }],
+  creator: "daichongte",
   icons: {
     icon: [
       { url: "/icon.svg", type: "image/svg+xml" },
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "zh_CN",
     url: "https://lwjcjmx23.com",
-    title: "hailong 的个人网站 - 全栈开发者",
+    title: "daichongte 的个人网站 - 全栈开发者",
     description:
-      "hailong 的个人展示网站，基于Next.js构建，包含博客系统、项目展示和在线简历",
-    siteName: "hailong 的个人网站",
+      "daichongte 的个人展示网站，基于Next.js构建，包含博客系统、项目展示和在线简历",
+    siteName: "daichongte 的个人网站",
   },
   twitter: {
     card: "summary_large_image",
-    title: "hailong 的个人网站 - 全栈开发者",
+    title: "daichongte 的个人网站 - 全栈开发者",
     description:
-      "hailong 的个人展示网站，基于Next.js构建，包含博客系统、项目展示和在线简历",
+      "daichongte 的个人展示网站，基于Next.js构建，包含博客系统、项目展示和在线简历",
   },
   robots: {
     index: true,
