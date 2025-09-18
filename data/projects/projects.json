@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "title": "个人博客系统",
+    "slug": "personal-blog",
+    "description": "基于 Next.js 和 MDX 的现代化个人博客系统",
+    "content": "这是一个功能完整的个人博客系统，支持 MDX 格式的文章编写、项目展示和在线简历。采用了现代化的技术栈，包括 Next.js 14、TypeScript、Tailwind CSS 等。\n\n## 主要功能\n\n- 📝 MDX 格式博客文章\n- 🎨 响应式设计\n- 📱 移动端适配\n- ⚡ 静态生成优化\n- 🔍 SEO 友好\n\n## 技术栈\n\n- **前端**: Next.js 14, TypeScript, Tailwind CSS\n- **内容**: MDX, JSON\n- **部署**: Vercel",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "MDX", "Vercel"],
+    "githubUrl": "https://github.com/lwjcjmx123/next-blog",
+    "liveUrl": "https://lwjcjmx123.com",
+    "imageUrl": "/images/projects/blog-preview.svg",
+    "featured": true,
+    "published": true,
+    "createdAt": "2024-01-15T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "个人管理系统",
+    "slug": "personal-management-system",
+    "description": "全功能个人生产力管理仪表板，支持任务管理、日历、笔记、财务跟踪等",
+    "content": "这是一个综合性的个人生产力管理系统，集成了多种日常管理工具，帮助用户提高工作效率和生活质量。\n\n## 🚀 核心功能\n\n- **任务管理**: 创建、组织和跟踪任务，支持优先级设置\n- **日历系统**: 日程安排和事件管理\n- **笔记应用**: 富文本笔记，支持标签分类\n- **财务跟踪**: 支出和账单管理\n- **番茄钟**: 内置生产力计时器\n- **数据分析**: 可视化生产力洞察\n- **个性化设置**: 主题和偏好设置\n\n- 零配置部署\n- 适合个人使用\n- 完全免费\n\n - 跨设备数据同步\n- 多用户支持\n- 企业级数据持久化\n\n## 🛠️ 技术特点\n\n- **响应式设计**: 完美适配桌面和移动设备\n- **PWA 支持**: 可安装为桌面应用\n- **实时同步**: 数据实时更新\n- **离线支持**: 离线模式下正常使用\n- **现代化 UI**: 基于 Tailwind CSS 的美观界面",
+    "technologies": [
+      "Next.js 14",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Prisma",
+      "IndexedDB",
+      "PWA"
+    ],
+    "githubUrl": "https://github.com/lwjcjmx123/dashboard",
+    "liveUrl": "https://pms.lwjcjmx123.com",
+    "imageUrl": "/images/projects/dashboard-preview.jpg",
+    "featured": true,
+    "published": true,
+    "createdAt": "2024-01-20T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "title": "语音记账应用",
+    "slug": "bills",
+    "description": "一款基于 Flutter 开发的智能语音记账应用，支持自然语言输入和 AI 智能解析，与 Notion 数据库无缝集成，让记账变得更加简单高效。",
+    "content": "语音记账应用是一款现代化的个人财务管理工具，采用 Flutter 跨平台框架开发，为用户提供便捷的记账体验。应用的核心特色是支持自然语言输入，用户可以通过语音或文字描述消费情况，AI 会自动解析并提取关键信息如金额、类别、日期等，大大简化了记账流程。\n\n## 🚀 核心功能\n\n- 🎤 语音输入记账\n- 🤖 AI智能解析\n- 📊 数据可视化分析\n- 📅 日历视图管理\n- 🔗 Notion数据库集成\n- 📱 跨平台支持\n- 💾 本地数据缓存\n- 🎨 现代化UI设计\n\n## 🛠️ 技术特点\n\n- 支持自然语言输入，如'今天买水果花了30块'自动解析为结构化数据\n- 集成AI语义解析引擎，智能识别消费类型、金额、日期等信息\n- 与Notion数据库深度集成，支持云端数据同步和管理\n- 提供多维度数据分析和图表展示，帮助用户了解消费习惯\n- 采用Flutter框架，支持iOS和Android双平台\n- 优雅的Material Design界面，提供流畅的用户体验",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "AI语义解析",
+      "Notion API",
+      "Provider状态管理",
+      "SharedPreferences",
+      "HTTP请求",
+      "图表可视化"
+    ],
+    "githubUrl": "https://github.com/lwjcjmx123/bills",
+    "liveUrl": "https://bills-demo.example.com",
+    "imageUrl": "/images/projects/bills-preview.jpg",
+    "featured": true,
+    "published": true,
+    "createdAt": "2024-03-01T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "title": "智能单词学习浏览器插件",
+    "slug": "words-browser-extension",
+    "description": "一个智能的单词学习工具，支持划词翻译并保存到Notion数据库，提升英语学习效率",
+    "content": "智能单词学习浏览器插件是一款专为英语学习者设计的Chrome扩展程序。它能够在用户浏览网页时提供即时的单词翻译服务，并将学习记录自动保存到Notion数据库中，帮助用户建立个人化的单词学习体系。\n\n## 🚀 核心功能\n\n- 🖱️ 划词翻译：选中网页中的单词即可获得翻译\n- 🤖 AI智能翻译：集成DeepSeek AI提供准确的翻译结果\n- 📝 Notion集成：自动将学习的单词保存到个人Notion数据库\n- ⚙️ 灵活配置：支持自定义API配置和翻译模型\n- 🎨 优雅界面：现代化的弹窗设计，不干扰正常浏览\n- 📱 跨平台支持：支持所有基于Chromium的浏览器\n\n## 🛠️ 技术特点\n\n- 基于Manifest V3开发，符合最新Chrome扩展标准\n- 使用React + TypeScript构建现代化用户界面\n- 集成Notion API实现数据持久化存储\n- 支持多种AI翻译服务，可灵活切换\n- 采用Vite构建工具，开发体验优秀\n- 完整的TypeScript类型支持，代码质量高\n\n## 📚 学习价值\n\n- 帮助用户在日常浏览中积累词汇\n- 建立个人化的单词学习数据库\n- 提供便捷的复习和回顾功能\n- 支持学习进度跟踪和统计分析",
+    "technologies": [
+      "Chrome Extension",
+      "React",
+      "TypeScript",
+      "Vite",
+      "Notion API",
+      "DeepSeek AI",
+      "Manifest V3"
+    ],
+    "githubUrl": "https://github.com/lwjcjmx123/words-browser-extension",
+    "liveUrl": "",
+    "imageUrl": "/images/projects/words-extension-preview.svg",
+    "featured": true,
+    "published": true,
+    "createdAt": "2024-03-15T00:00:00Z"
+  }
+]
